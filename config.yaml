@@ -10,6 +10,18 @@ taxonomies:
   tag: tags
   category: categories
 params:
+  copyright: Hat Labs Oy
+  privacy_policy: ""
+  version_menu: Versions
+  archived_version: false
+  version: "1.0"
+  url_latest_version: https://docs.hatlabs.fi/halmet/
+  github_repo: https://github.com/hatlabs/halmet
+  github_project_repo: https://github.com/hatlabs/HALMET-hardware
+  github_branch: main
+  gcs_engine_id: a31868f3e68674aa2
+  offlineSearch: false
+  prism_syntax_highlighting: false
   taxonomy:
     taxonomyCloud:
       - tags
@@ -24,40 +36,25 @@ params:
     pygmentsUseClasses: false
     pygmentsUseClassic: false
     pygmentsStyle: tango
-  copyright: Hat Labs Oy
-  privacy_policy: ''
-  version_menu: Versions
-  archived_version: false
-  version: '1.0'
-  url_latest_version: 'https://docs.hatlabs.fi/halmet/'
-  github_repo: 'https://github.com/hatlabs/halmet'
-  github_project_repo: 'https://github.com/hatlabs/HALMET-hardware'
-  github_branch: main
-  gcs_engine_id: a31868f3e68674aa2
-  algolia_docsearch: false
-  offlineSearch: false
-  prism_syntax_highlighting: false
   ui:
     breadcrumb_disable: false
-    footer_about_disable: false
+    footer_about_enable: true
     navbar_logo: true
     navbar_translucent_over_cover_disable: false
     sidebar_menu_compact: false
     sidebar_search_disable: false
     feedback:
       enable: false
-      'yes': >-
-        Glad to hear it! Please <a
-        href="https://github.com/hatlabs/sh-rpi/issues/new">tell us how we
-        can improve</a>.
-      'no': >-
-        Sorry to hear that. Please <a
-        href="https://github.com/hatlabs/sh-rpi/issues/new">tell us how we
-        can improve</a>.
+      yes: Glad to hear it! Please <a
+        href="https://github.com/hatlabs/sh-rpi/issues/new">tell us how we can
+        improve</a>.
+      no: Sorry to hear that. Please <a
+        href="https://github.com/hatlabs/sh-rpi/issues/new">tell us how we can
+        improve</a>.
     readingtime:
       enable: false
 permalinks:
-  blog: '/:section/:year/:month/:day/:slug/'
+  blog: /:section/:year/:month/:day/:slug/
 imaging:
   resampleFilter: CatmullRom
   quality: 75
@@ -68,11 +65,14 @@ services:
 languages:
   en:
     title: "HALMET: Hat Labs Marine Engine & Tank interface"
-    description: Marine development platform for connecting typical engines and resistive sensors
     languageName: English
     weight: 1
-    time_format_default: 2006-01-02
-    time_format_blog: 2006-01-02
+    params:
+      description:
+        Marine development platform for connecting typical engines and
+        resistive sensors
+      time_format_default: 2006-01-02
+      time_format_blog: 2006-01-02
 markup:
   goldmark:
     renderer:
@@ -97,16 +97,16 @@ menu:
   main:
     - name: Main Site
       weight: 10
-      url: 'https://hatlabs.fi'
+      url: https://hatlabs.fi
     - name: Shop
       weight: 20
-      url: 'https://shop.hatlabs.fi'
+      url: https://shop.hatlabs.fi
     - name: Docs
       weight: 30
-      url: 'https://docs.hatlabs.fi'
+      url: https://docs.hatlabs.fi
     - name: Discussion
       weight: 40
-      url: 'https://github.com/hatlabs/discussions/discussions'
+      url: https://github.com/hatlabs/discussions/discussions
     - name: Contact
       weight: 50
-      url: 'https://hatlabs.fi/contact'
+      url: https://hatlabs.fi/contact
