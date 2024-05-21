@@ -46,10 +46,10 @@ params:
     feedback:
       enable: false
       yes: Glad to hear it! Please <a
-        href="https://github.com/hatlabs/sh-rpi/issues/new">tell us how we can
+        href="https://github.com/hatlabs/halmet/issues/new">tell us how we can
         improve</a>.
       no: Sorry to hear that. Please <a
-        href="https://github.com/hatlabs/sh-rpi/issues/new">tell us how we can
+        href="https://github.com/hatlabs/halmet/issues/new">tell us how we can
         improve</a>.
     readingtime:
       enable: false

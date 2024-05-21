@@ -78,14 +78,14 @@ meaning that they do not share a common ground with the rest of the board.
   <div class="col-sm-6">
 
 {{< imgrel "HALMET-conx-top.jpg" "100%" >}}
-SH-RPi connectors, top side.
+HALMET connectors, top side.
 {{< /imgrel >}}
 
    </div>
    <div class="col-sm-6">
 
 {{< imgrel "HALMET-conx-bottom.jpg" "100%" >}}
-SH-RPi connectors, bottom side.
+HALMET connectors, bottom side.
 {{< /imgrel >}}
 
    </div>
