@@ -162,7 +162,7 @@ and their functions.
 | ------: | :---------- | :------------------------------------------------- |
 |       0 | Boot button | Enter bootloader when pulled low                   |
 |       1 | TXD0        | Transmit data to USB                               |
-|       2 | LED         | Onboard red LED                                    |
+|       2 | LED         | Onboard blue LED                                   |
 |       3 | RXD0        | Receive data from USB                              |
 |       4 | 1-Wire DQ   | 1-Wire data line                                   |
 |       5 | -           | Available on the GPIO header                       |
