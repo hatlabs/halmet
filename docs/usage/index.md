@@ -2,6 +2,8 @@
 title: Usage
 ---
 
+# Usage
+
 ## Common Use Cases
 
 This section contains practical information on reading different types of sensors and connecting HALMET to other devices.

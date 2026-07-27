@@ -2,6 +2,8 @@
 title: Hardware Revisions
 ---
 
+# Hardware Revisions
+
 ## Introduction
 
 This page documents different board revisions and provides links to the schematics. Full design file history is available at the [HALMET-hardware GitHub repository](https://github.com/hatlabs/HALMET-hardware).

@@ -2,6 +2,8 @@
 title: Hardware Description
 ---
 
+# Hardware
+
 ## ESP32 Introduction
 
 HALMET is based on the powerful ESP32-WROOM-32E microcontroller module. The ESP32 is a dual-core microcontroller with built-in WiFi and Bluetooth connectivity. The ESP32 is a popular choice for IoT applications due to its low cost, good set of peripherals, and ease of use.
