@@ -2,6 +2,8 @@
 title: Getting Started
 ---
 
+# Getting Started
+
 ## Hardware Assembly
 
 To accommodate more flexible connector placement in small enclosures, HALMET boards are delivered without the 1-Wire or GPIO headers installed. If you plan to use either of these interfaces, you will need to solder the headers to the board.

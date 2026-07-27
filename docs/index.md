@@ -2,6 +2,8 @@
 title: Introduction
 ---
 
+# Introduction
+
 HALMET, the Hat Labs Marine Engine & Tank interface, is a development board for connecting engine and tank sensors on boats and other vehicles. It can be used for reading digital and analog sensors, as well as for connecting to other devices using NMEA 2000, WiFi, Bluetooth, I2C, 1-Wire, or GPIO interfaces.
 
 <figure markdown="span">

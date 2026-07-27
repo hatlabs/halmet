@@ -2,6 +2,8 @@
 title: Software
 ---
 
+# Software
+
 ## Introduction
 
 As a developer board, HALMET arrives with no pre-installed software. You will need to install suitable software yourself. While this is not difficult, some prior experience with microcontroller boards such as Arduino or ESP32 Devkits is recommended.

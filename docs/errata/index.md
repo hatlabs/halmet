@@ -2,6 +2,8 @@
 title: Errata
 ---
 
+# Errata
+
 This page lists all known hardware bugs for different HALMET revisions.
 
 ## Version 1.0.0
