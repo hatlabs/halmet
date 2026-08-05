@@ -335,7 +335,6 @@ English term is what is printed in the schematics the reader may open next.
 | firmware | firmware | Invariable, masculine — matches the sibling decision to keep the trade term |
 | daemon | demone | Established in Italian Linux usage |
 | flash (firmware) | flashare | `flashare il firmware dell'RP2040` |
-| flash (an image) | scrivere | Writing an OS image to the SSD: `scrivere l'immagine sull'unità SSD` |
 | system image | immagine di sistema | Also `immagine del sistema operativo` where the source spells it out |
 | headless | senza monitor | First mention: `senza monitor (headless)` |
 | container app | applicazione in container | The Cockpit menu is `Container Apps` and stays English |

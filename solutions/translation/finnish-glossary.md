@@ -191,7 +191,6 @@ them.
 
 | English | Finnish | Note |
 |:--------|:--------|:-----|
-| power supply | virtalähde | |
 | power source | virransyöttö | |
 | input voltage range | syöttöjännitealue | |
 | polarity | napaisuus | |
@@ -358,6 +357,7 @@ this heading are shared with HALPI2 and should not be changed here alone.
 | reverse polarity protection | napaisuussuojaus | |
 | overvoltage protection | ylijännitesuojaus | |
 | switching power supply | hakkuriteholähde | |
+| power supply | teholähde | **A deliberate divergence from HALPI2, which uses `virtalähde`. Do not harmonise.** On HALMET the two collide: `vakiovirtalähde` is the constant current source, an entirely different component described on the same page, and `virtalähde` is a substring of it — so a reader meets what looks like one component with a modifier. `teholähde` is also the base of `hakkuriteholähde`, which this glossary already prescribes. |
 | current consumption | virrankulutus | |
 | short circuit | oikosulku | |
 | chafing (of a wire) | hankautuminen | |
