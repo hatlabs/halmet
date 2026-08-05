@@ -5,7 +5,7 @@ site_author: Hat Labs
 
 repo_url: https://github.com/hatlabs/HALMET
 repo_name: hatlabs/HALMET
-edit_uri: edit/main/halmet-docs/docs/
+edit_uri: edit/main/docs/
 
 theme:
   name: material
@@ -30,11 +30,34 @@ theme:
 
 plugins:
   - search
-  - print-site:
-      add_cover_page: true
-      add_print_site_banner: true
-      add_to_navigation: false
-      print_page_title: "HALMET: Hat Labs Marine Engine & Tank Interface"
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: en
+          name: English
+          default: true
+          build: true
+        - locale: fi
+          name: Suomi
+          build: true
+          site_name: "HALMET: Hat Labsin moottori- ja tankkimittausliitäntä"
+          site_description: HALMETin käyttöopas — ESP32-pohjainen moottori- ja tankkianturien mittauskortti veneisiin
+          admonition_translations:
+            note: Huomio
+            warning: Varoitus
+            tip: Vinkki
+            info: Tietoa
+            danger: Vaara
+            example: Esimerkki
+          nav_translations:
+            Introduction: Johdanto
+            Getting Started: Aloitusopas
+            Usage: Käyttö
+            Hardware: Laitteisto
+            Software: Ohjelmisto
+            Tutorials and Examples: Ohjeet ja esimerkit
+            Hardware Revisions: Laitteistoversiot
+            Errata: Tunnetut virheet
 
 markdown_extensions:
   - admonition
