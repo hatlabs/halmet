@@ -90,7 +90,7 @@ In der Abbildung unten zeigt Beispiel (a) ein vorhandenes Motorinstrument, das a
 </figure>
 
 
-Beispiel (b) zeigt den Fall ohne vorhandenes Anzeigeinstrument. Der Geber ist direkt an den Analogeingang von HALMET angeschlossen. In diesem Fall muss HALMET die Speisespannung für den Geber bereitstellen. HALMET führt die Widerstandsmessung mit einer Konstantstromquelle von 10 mA durch. Der Strom von 10 mA erzeugt über einem Widerstand von 100 Ω eine Spannungsdifferenz von 1 V, woraus sich ein maximal messbarer Widerstand von etwa 300 Ω ergibt. Die Konstantstromquelle wird aktiviert, indem ein Jumper auf das Stiftpaar der CCS-Stiftleiste (constant current source) gesteckt wird. Siehe die Abbildung unten.
+Beispiel (b) zeigt den Fall ohne vorhandenes Anzeigeinstrument. Der Geber ist direkt an den Analogeingang von HALMET angeschlossen. In diesem Fall muss HALMET die Speisespannung für den Geber bereitstellen. HALMET führt die Widerstandsmessung mit einer Konstantstromquelle von 10 mA durch. Der Strom von 10 mA erzeugt über einem Widerstand von 100 Ω eine Spannungsdifferenz von 1 V, woraus sich ein maximal messbarer Widerstand von etwa 300 Ω ergibt. Die Konstantstromquelle wird aktiviert, indem ein Jumper auf das Stiftpaar der CCS-Stiftleiste (Konstantstromquelle) gesteckt wird. Siehe die Abbildung unten.
 
 <figure markdown="span">
 ![](ccs_jumpers.jpg){ width="60%" }

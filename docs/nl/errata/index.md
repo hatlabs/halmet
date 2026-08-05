@@ -1,9 +1,9 @@
 ---
-title: Bekende hardwarefouten
+title: Bekende fouten
 translated_from: 5ef927a8a1dd611d3215899a52dd6b3bfca86859
 ---
 
-# Bekende hardwarefouten
+# Bekende fouten
 
 Op deze pagina staan alle bekende hardwarefouten in de verschillende versies van de HALMET.
 

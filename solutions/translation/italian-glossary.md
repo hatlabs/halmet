@@ -420,19 +420,7 @@ Same as the sibling glossaries:
   `**NOTA:**`.
 - Navigation titles live in `mkdocs.yml` under `nav_translations`, not in any
   markdown file. Three are judgement calls worth recording:
-  `Errata` → **Errata corrige** (the established Italian term for a list of known
-  defects, not *Correzioni*, which would promise fixes);
-  `Usage` → **Utilizzo** (how the board is used, not *Uso* alone and not
-  *Impiego*); `Hardware Revisions` → **Revisioni hardware** (board versions —
-  `revisione` is the Italian hardware term, `versione` is reserved for the
-  version numbers listed on the page). When a new page is added to the English
-  nav, add its Italian title in the same change; an untranslated entry falls back
-  to English silently.
-- Anchors derive from heading text, so a translated heading changes its slug.
-  Rewrite every in-page `](#…)` link, and after building read the real ids out
-  of the generated HTML rather than guessing. Slugs strip accents:
-  `Risoluzione dei problemi` → `risoluzione-dei-problemi`; `Conformità` →
-  `conformita`.
+  `Errata` → **Problemi noti**, matching HALPI2. These page names follow HALPI2 rather than the reading this glossary first recorded, because the same person reads both sites and a page cannot carry two names across two Hat Labs products. `Errata corrige` and `Guida introduttiva` are both defensible Italian; they simply lose to consistency here. If they are ever preferred, the change belongs in both repositories.
 
 ## HALMET terms
 
@@ -707,7 +695,7 @@ translating HALMET pages go in the `## HALMET terms` section above, not here.**
 
 | English | Translation | Note |
 |:--------|:------------|:-----|
-| Getting Started (page/guide title) | Guida introduttiva | H1 of the page and the link text to the HaLOS equivalent guide. Standard Italian documentation title; 'Per iniziare' is the alternative but reads less |
+| Getting Started (page/guide title) | Primi passi | H1 of the page and the link text to the HaLOS equivalent guide. Standard Italian documentation title; 'Per iniziare' is the alternative but reads less |
 | Step (numbered procedure heading) | Passaggio | Used in 5 headings (Step 0-3). Needed a fixed choice so headings do not alternate between 'Passaggio', 'Fase' and 'Punto'. 'Fase' is reserved here for |
 | wire (individual conductor: red wire / black wire) | conduttore | The glossary covers 'wire gauge' and 'marine-grade wire' but not the countable conductor. 'Conduttore' distinguishes the individual red/black lead fro |
 | terminals (crimp-on ring/spade terminals) | capicorda | Distinct from 'morsettiera' (terminal block), which the glossary already fixes. 'Capicorda' is the standard Italian term for crimped cable-end termina |

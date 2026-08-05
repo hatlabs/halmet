@@ -1,9 +1,9 @@
 ---
-title: Anomalies connues
+title: Problèmes connus
 translated_from: 5ef927a8a1dd611d3215899a52dd6b3bfca86859
 ---
 
-# Anomalies connues
+# Problèmes connus
 
 Cette page recense toutes les anomalies matérielles connues des différentes versions de HALMET.
 

@@ -140,7 +140,7 @@ centrally in `mkdocs.yml`, custom ones in the page.
 
 Two navigation entries are judgement calls worth recording:
 
-- `Errata` → **Anomalies connues**. The page lists known hardware defects, not
+- `Errata` → **Problèmes connus**. The page lists known hardware defects, not
   corrections to be applied; *errata* in French reads as a printer's correction
   list.
 - `Hardware Revisions` → **Versions de la carte**. The page is about board

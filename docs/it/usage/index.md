@@ -90,7 +90,7 @@ Nella figura seguente, l’esempio (a) mostra un indicatore del quadro motore gi
 </figure>
 
 
-L’esempio (b) mostra un caso in cui l’indicatore non è presente. La sonda è collegata direttamente all’ingresso analogico di HALMET. In questo caso HALMET deve fornire la tensione di eccitazione alla sonda. HALMET realizza la misura di resistenza con un generatore di corrente costante (CCS) da 10 mA. La corrente di 10 mA produce una differenza di tensione di 1 volt ai capi di una resistenza da 100 Ω, per una resistenza massima di circa 300 Ω. Il generatore di corrente costante si abilita inserendo un jumper sulla coppia di pin del connettore a pettine CCS (constant current source). Vedere la figura seguente.
+L’esempio (b) mostra un caso in cui l’indicatore non è presente. La sonda è collegata direttamente all’ingresso analogico di HALMET. In questo caso HALMET deve fornire la tensione di eccitazione alla sonda. HALMET realizza la misura di resistenza con un generatore di corrente costante (CCS) da 10 mA. La corrente di 10 mA produce una differenza di tensione di 1 volt ai capi di una resistenza da 100 Ω, per una resistenza massima di circa 300 Ω. Il generatore di corrente costante si abilita inserendo un jumper sulla coppia di pin del connettore a pettine CCS (generatore di corrente costante). Vedere la figura seguente.
 
 <figure markdown="span">
 ![](ccs_jumpers.jpg){ width="60%" }

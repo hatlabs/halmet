@@ -202,7 +202,7 @@ Navigation titles live in `mkdocs.yml` under the i18n plugin's
 `nav_translations` and are not restated here. Two entries are judgement calls
 worth recording:
 
-- `Errata` → **Bekende hardwarefouten**. The Latin term is opaque to a general
+- `Errata` → **Bekende fouten**. The Latin term is opaque to a general
   reader, and in Dutch *errata* additionally suggests corrections still to be
   made rather than defects the reader has to live with. The page lists known
   hardware defects, so plain Dutch is clearer.

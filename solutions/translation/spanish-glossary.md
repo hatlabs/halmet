@@ -203,7 +203,7 @@ Section and page titles in the navigation are not part of any markdown file —
 they live in `mkdocs.yml` under the i18n plugin's `nav_translations`, which is
 the single source of truth. Two entries are judgement calls worth recording:
 
-- `Errata` → **Defectos conocidos**. The page lists known hardware defects;
+- `Errata` → **Errores conocidos**. The page lists known hardware defects;
   Spanish `erratas` means printing errors or corrections, which is the wrong
   thing entirely.
 - `Hardware Revisions` → **Versiones del hardware**. Board versions, not

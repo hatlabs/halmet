@@ -90,7 +90,7 @@ In de afbeelding hieronder toont voorbeeld (a) een bestaande meter op het motorp
 </figure>
 
 
-Voorbeeld (b) toont een situatie zonder bestaande meter. De gever is rechtstreeks op de analoge ingang van de HALMET aangesloten. In dat geval moet de HALMET zelf de excitatiespanning voor de gever leveren. De HALMET voert de weerstandsmeting uit met een constantstroombron van 10 mA. Die stroom van 10 mA levert over een weerstand van 100 Ω een spanningsverschil van 1 volt op, wat neerkomt op een maximale weerstand van ongeveer 300 Ω. U schakelt de constantstroombron in door een jumper op het pinpaar van de CCS-jumperheader (constant current source) te plaatsen. Zie de afbeelding hieronder.
+Voorbeeld (b) toont een situatie zonder bestaande meter. De gever is rechtstreeks op de analoge ingang van de HALMET aangesloten. In dat geval moet de HALMET zelf de excitatiespanning voor de gever leveren. De HALMET voert de weerstandsmeting uit met een constantstroombron van 10 mA. Die stroom van 10 mA levert over een weerstand van 100 Ω een spanningsverschil van 1 volt op, wat neerkomt op een maximale weerstand van ongeveer 300 Ω. U schakelt de constantstroombron in door een jumper op het pinpaar van de CCS-jumperheader (constantstroombron) te plaatsen. Zie de afbeelding hieronder.
 
 <figure markdown="span">
 ![](ccs_jumpers.jpg){ width="60%" }

@@ -90,7 +90,7 @@ På figuren nedenfor viser eksempel (a) et eksisterende instrument i motorpanele
 </figure>
 
 
-Eksempel (b) viser et tilfælde uden et eksisterende instrument. Giveren er forbundet direkte til HALMETs analoge indgang. Her skal HALMET selv levere excitationsspændingen (den spænding, der driver giveren). HALMET udfører modstandsmålingen med en konstantstrømkilde på 10 mA. De 10 mA giver en spændingsforskel på 1 volt over en modstand på 100 ohm, hvilket svarer til en største målbar modstand på cirka 300 ohm. Konstantstrømkilden aktiveres ved at sætte en jumper på benparret i CCS-jumperstiklisten (constant current source). Se figuren nedenfor.
+Eksempel (b) viser et tilfælde uden et eksisterende instrument. Giveren er forbundet direkte til HALMETs analoge indgang. Her skal HALMET selv levere excitationsspændingen (den spænding, der driver giveren). HALMET udfører modstandsmålingen med en konstantstrømkilde på 10 mA. De 10 mA giver en spændingsforskel på 1 volt over en modstand på 100 ohm, hvilket svarer til en største målbar modstand på cirka 300 ohm. Konstantstrømkilden aktiveres ved at sætte en jumper på benparret i CCS-jumperstiklisten (konstantstrømkilde). Se figuren nedenfor.
 
 <figure markdown="span">
 ![](ccs_jumpers.jpg){ width="60%" }

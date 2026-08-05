@@ -141,12 +141,12 @@ ei ole yhteistä maata kortin muun osan kanssa.</figcaption>
 
 13.  Alasvetovastuksen juotossilta. Sillan sulkeminen ottaa käyttöön 100 kohmin
      alasvetovastuksen kyseisellä digitaalitulolla. Alasvetovastusta voi käyttää
-     avautuvan kytkimen lukemiseen, kun kytkin vetää jännitteen korkeaksi
+     sulkeutuvan kytkimen lukemiseen, kun kytkin vetää jännitteen korkeaksi
      sulkeutuessaan.
 
 14.  Ylösvetovastuksen juotossilta. Sillan sulkeminen ottaa käyttöön 100 kohmin
      ylösvetovastuksen kyseisellä digitaalitulolla. Ylösvetovastusta voi käyttää
-     sulkeutuvan kytkimen lukemiseen, kun kytkin vetää jännitteen matalaksi
+     avautuvan kytkimen lukemiseen, kun kytkin vetää jännitteen matalaksi
      sulkeutuessaan.
 
 15.  ADS1115:n I2C-osoitteen valinnan juotossillat. Silloilla valitaan

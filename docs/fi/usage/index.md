@@ -54,7 +54,7 @@ Alla olevan kuvan esimerkissä (a) piirissä on jo hehkulamppu. Kun kytkin on au
 
 Vastaavasti jos kytkin vetää signaalin matalaksi sulkeutuessaan kuten esimerkissä (c), sisäinen ylösveto voi olla tarpeen ottaa käyttöön.
 
-Jos hälytyskytkimet ovat sulkeutuvia, tilanne on päinvastainen. Kun kytkin avautuu, tulojännite vedetään ylös tai alas piiristä riippuen. Tällöin sisäinen ylös- tai alasveto voi olla tarpeen ottaa käyttöön.
+Jos hälytyskytkimet ovat avautuvia, tilanne on päinvastainen. Kun kytkin avautuu, tulojännite vedetään ylös tai alas piiristä riippuen. Tällöin sisäinen ylös- tai alasveto voi olla tarpeen ottaa käyttöön.
 
 #### Ohjelmiston asennus
 
@@ -90,7 +90,7 @@ Alla olevan kuvan esimerkissä (a) on moottoripaneelin mittari kytkettynä vastu
 </figure>
 
 
-Esimerkissä (b) mittaria ei ole. Anturi on kytketty suoraan HALMETin analogiatuloon. Tällöin HALMETin on tuotettava anturille herätejännite. HALMET toteuttaa vastusmittauksen 10 mA:n vakiovirtalähteellä. 10 mA:n virta synnyttää 100 ohmin vastuksen yli 1 voltin jännite-eron, joten suurin mitattava vastus on noin 300 ohmia. Vakiovirtalähde otetaan käyttöön asettamalla hyppy CCS-hyppyliittimen (constant current source) nastapariin. Katso alla oleva kuva.
+Esimerkissä (b) mittaria ei ole. Anturi on kytketty suoraan HALMETin analogiatuloon. Tällöin HALMETin on tuotettava anturille herätejännite. HALMET toteuttaa vastusmittauksen 10 mA:n vakiovirtalähteellä. 10 mA:n virta synnyttää 100 ohmin vastuksen yli 1 voltin jännite-eron, joten suurin mitattava vastus on noin 300 ohmia. Vakiovirtalähde otetaan käyttöön asettamalla hyppy CCS-hyppyliittimen (vakiovirtalähde) nastapariin. Katso alla oleva kuva.
 
 <figure markdown="span">
 ![](ccs_jumpers.jpg){ width="60%" }

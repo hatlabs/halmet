@@ -1,9 +1,9 @@
 ---
-title: Defectos conocidos
+title: Errores conocidos
 translated_from: 5ef927a8a1dd611d3215899a52dd6b3bfca86859
 ---
 
-# Defectos conocidos
+# Errores conocidos
 
 En esta página se enumeran todos los defectos de hardware conocidos en las distintas versiones de HALMET.
 

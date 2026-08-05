@@ -1,9 +1,9 @@
 ---
-title: Guida introduttiva
+title: Primi passi
 translated_from: 75bcdba18bc044c04ce3e220067bf537e069ec82
 ---
 
-# Guida introduttiva
+# Primi passi
 
 ## Assemblaggio dell’hardware
 

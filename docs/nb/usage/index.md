@@ -90,7 +90,7 @@ I figuren nedenfor viser eksempel (a) en eksisterende måler i motorpanelet kobl
 </figure>
 
 
-Eksempel (b) viser et tilfelle uten en eksisterende måler. Giveren kobles direkte til den analoge inngangen på HALMET. Da må HALMET levere matespenning til giveren. HALMET utfører motstandsmålingen med en konstantstrømkilde på 10 mA. Strømmen på 10 mA gir en spenningsforskjell på 1 volt over en motstand på 100 Ω, altså en maksimal motstand på omtrent 300 Ω. Konstantstrømkilden aktiveres ved å sette en jumper over pinneparet på CCS-pinnelisten (constant current source). Se figuren nedenfor.
+Eksempel (b) viser et tilfelle uten en eksisterende måler. Giveren kobles direkte til den analoge inngangen på HALMET. Da må HALMET levere matespenning til giveren. HALMET utfører motstandsmålingen med en konstantstrømkilde på 10 mA. Strømmen på 10 mA gir en spenningsforskjell på 1 volt over en motstand på 100 Ω, altså en maksimal motstand på omtrent 300 Ω. Konstantstrømkilden aktiveres ved å sette en jumper over pinneparet på CCS-pinnelisten (konstantstrømkilde). Se figuren nedenfor.
 
 <figure markdown="span">
 ![](ccs_jumpers.jpg){ width="60%" }

@@ -352,7 +352,7 @@ this heading are shared with HALPI2 and should not be changed here alone.
 | threshold voltage | kynnysjännite | |
 | hysteresis | hystereesi | |
 | floating (input) | kelluva | `tulo jää kelluvaksi` |
-| normally open / normally closed | avautuva / sulkeutuva | Standard Finnish switch terms |
+| normally open / normally closed | sulkeutuva / avautuva | SFS/IEC contact terms, and easy to get backwards: a *sulkeutuva* contact is open at rest and **closes** when actuated, which is what *normally open* means. Swedish `slutande`/`brytande` and German `Schließer`/`Öffner` line up the same way. |
 | self-resetting fuse | itsestään palautuva sulake | |
 | reverse polarity protection | napaisuussuojaus | |
 | overvoltage protection | ylijännitesuojaus | |

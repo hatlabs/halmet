@@ -1,9 +1,9 @@
 ---
-title: Errata corrige
+title: Problemi noti
 translated_from: 5ef927a8a1dd611d3215899a52dd6b3bfca86859
 ---
 
-# Errata corrige
+# Problemi noti
 
 Questa pagina elenca tutti i difetti hardware noti delle diverse revisioni di HALMET.
 
