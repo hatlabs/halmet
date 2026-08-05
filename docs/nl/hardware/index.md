@@ -1,6 +1,6 @@
 ---
 title: Hardwarebeschrijving
-translated_from: af5172f8fb6598935bf432cd9590095fe4f40312
+translated_from: 96f96c3aff8d2a33ab2f1b59c0dbb8747c8ed3e2
 ---
 
 # Hardware
@@ -53,10 +53,10 @@ De verschillende functionele blokken van de print worden hieronder beschreven.
     actieve weerstandsmeting. De constantstroombron kan met de
     CCS-jumperheaders worden ingeschakeld.
 
-    In de weerstandsmeetmodus is de maximaal meetbare weerstand 320 Ω.
+    In de weerstandsmeetmodus is de maximaal meetbare weerstand 300 Ω.
 
 10. Digitale ingangen. De HALMET heeft vier digitale ingangen met een maximale
-    ingangsspanning van ±30 V. De ingangen bevatten een Schmitt trigger die de
+    ingangsspanning van ±32 V. De ingangen bevatten een Schmitt trigger die de
     ruisongevoeligheid verbetert.
 
 

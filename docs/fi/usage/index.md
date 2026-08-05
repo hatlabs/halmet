@@ -14,7 +14,7 @@ Tässä osiossa on käytännön tietoa erityyppisten antureiden lukemisesta ja H
 HALMET on kehityskortti, eikä siinä ole valmiiksi asennettua ohjelmistoa.
 Sopiva ohjelmisto pitää asentaa itse. Se ei ole vaikeaa, mutta aiempi kokemus mikro-ohjainkorteista, kuten Arduinosta tai ESP32 Devkitistä, on suositeltavaa.
 
-HALMETin dokumentaatiossa oletetaan, että käytössä on [HALMETin esimerkkifirmware](https://github.com/hatlabs/HALMET-example-firmware). Se perustuu [SensESP](https://signalk.org/SensESP/) -kehykseen ja tarjoaa suhteellisen suoraviivaisen pääsyn kortin ominaisuuksiin.
+HALMETin dokumentaatiossa oletetaan, että käytössä on [HALMETin esimerkkifirmware](https://github.com/hatlabs/HALMET-example-firmware). Se perustuu [SensESP](https://signalk.org/SensESP/)-kehykseen ja tarjoaa suhteellisen suoraviivaisen pääsyn kortin ominaisuuksiin.
 
 [SensESP:n aloitusopas](https://signalk.org/SensESP/pages/getting_started/) sisältää yksityiskohtaiset ohjeet firmwaren kääntämiseen ja asentamiseen tarvittavan kehitysympäristön asennukseen. Ohjeet on kirjoitettu yleisille ESP32-laitteille, mutta ne pätevät myös HALMETiin. Käytä vain [HALMETin esimerkkifirmwarea](https://github.com/hatlabs/HALMET-example-firmware) SensESP:n projektipohjan sijaan.
 
@@ -22,13 +22,13 @@ Huomaa, että vaikka SensESP:n dokumentaatiossa oletetaan Signal K:n käyttö, H
 
 Jos et halua käyttää SensESP:tä, voit myös tehdä oman firmwaresi Arduino IDE:llä tai ESP-IDF:llä. Moniin käyttötapauksiin myös ESPHome on erinomainen vaihtoehto.
 
-**HUOMAA:** HALMETin GPIO-nastojen käyttö poikkeaa hieman sekä ESP32 Devkitin että SH-ESP32:n nastajärjestyksestä. Jos otat käyttöön jotain muuta ohjelmistoa kuin HALMETin esimerkkifirmwaren, sinun on tarkistettava nastojen käyttö. Lisätietoja on [GPIO-taulukossa](../hardware/index.md#gpio-taulukko).
+**HUOMAA:** HALMETin GPIO-nastojen käyttö poikkeaa hieman sekä ESP32 Devkitin että SH-ESP32:n nastajärjestyksestä. Jos otat käyttöön jotain muuta ohjelmistoa kuin HALMETin esimerkkifirmwaren, nastojen käyttö on tarkistettava. Lisätietoja on [GPIO-taulukossa](../hardware/index.md#gpio-taulukko).
 
 ### Digitaalitulojen käyttö
 
 HALMETissa on neljä digitaalituloa. Niitä voi käyttää digitaalisten hälytyssignaalien lukemiseen tai laskureina. Tässä osiossa kuvataan tulojen käyttö erilaisissa yleisissä käyttötapauksissa. Ohjeissa oletetaan, että käytössä on HALMETin esimerkkifirmware.
 
-Digitaalitulot D1–D4 on kytketty GPIO-nastoihin 23, 25, 27 ja 26 tässä järjestyksessä. Tulot kestävät jännitteitä -32 V:n ja +32 V:n välillä. Korkean signaalin havaitsemisen kynnysjännite on noin 1,55 V ja hystereesi noin 0,7 V.
+Digitaalitulot D1–D4 on kytketty GPIO-nastoihin 23, 25, 27 ja 26 tässä järjestyksessä. Tulot kestävät jännitteitä −32 V:n ja +32 V:n välillä. Korkean signaalin havaitsemisen kynnysjännite on noin 1,55 V ja hystereesi noin 0,7 V.
 
 ### Liittäminen digitaalisiin hälytyksiin
 
@@ -66,7 +66,7 @@ HALMETin digitaalituloja voi käyttää myös laskureina. Tämä on hyödyllist�
 
 #### Laitteiston asennus
 
-Yleensä tällaisia antureita ohjataan aktiivisesti molempiin suuntiin, joten ylös- tai alasvetoa ei tarvita. Jos liität HALMETin matalaimpedanssiseen lähtöön, kuten laturin W-napaan, on suositeltavaa lisätä sarjaan sulake suojaamaan johdinta hankautumisesta tai muusta vauriosta johtuvilta oikosuluilta. Muuten anturin voi kytkeä suoraan digitaalituloon.
+Yleensä tällaisia antureita ohjataan aktiivisesti molempiin suuntiin, joten ylös- tai alasvetoa ei tarvita. Jos liität HALMETin matalaimpedanssiseen lähtöön, kuten laturin W-napaan, on suositeltavaa lisätä linjasulake suojaamaan johdinta hankautumisesta tai muusta vauriosta johtuvilta oikosuluilta. Muuten anturin voi kytkeä suoraan digitaalituloon.
 
 Jos pulssilähde on hyvin häiriöinen ja kierroslukulukema heittelee, alipäästösuotimen voi ottaa käyttöön sulkemalla kortin takapuolen LP-juotossillan. Alipäästösuotimen rajataajuus on noin 2,3 kHz, mikä sopii esimerkiksi laturin W-navan kaltaisiin tuloihin.
 

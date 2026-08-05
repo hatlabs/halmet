@@ -1,6 +1,6 @@
 ---
 title: Introduzione
-translated_from: 2ad10049c9c3d0b5f6fb78356500eaa25670febd
+translated_from: 864a9f606fb309bc3e706c3231d0ec7208b25eed
 ---
 
 # Introduzione
@@ -16,7 +16,7 @@ HALMET, la Hat Labs Marine Engine & Tank interface, è una scheda di sviluppo pe
 
 - **Quattro ingressi digitali**: HALMET ha quattro ingressi digitali per leggere segnali di allarme digitali o per l’impiego come contatori. Gli ingressi tollerano tensioni comprese tra −32 V e +32 V. Gli ingressi digitali permettono di rilevare sia i livelli del segnale sia segnali variabili nel tempo, come il regime del motore, la portata del carburante o gli impulsi del contacatena.
 
-- **Quattro ingressi analogici**: HALMET ha quattro ingressi analogici per la lettura di sensori analogici. Gli ingressi tollerano tensioni comprese tra −32 V e +32 V, con un intervallo di misura da 0 a 32 V. Gli ingressi sono collegati a un convertitore analogico-digitale (ADC) ADS1115 a 16 bit. Gli ingressi analogici possono essere utilizzati sia per misure passive di tensione sia per misure attive di resistenza.
+- **Quattro ingressi analogici**: HALMET ha quattro ingressi analogici per la lettura di sensori analogici. Gli ingressi tollerano tensioni comprese tra −32 V e +32 V, con un intervallo di misura da 0 a 33 V. Gli ingressi sono collegati a un convertitore analogico-digitale (ADC) ADS1115 a 16 bit. Gli ingressi analogici possono essere utilizzati sia per misure passive di tensione sia per misure attive di resistenza.
 
 - **Compatibile con NMEA 2000**: HALMET è pienamente compatibile con lo standard NMEA 2000. La scheda può essere collegata a una rete NMEA 2000 attraverso l’interfaccia NMEA 2000 integrata.
 

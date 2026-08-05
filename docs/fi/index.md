@@ -1,11 +1,11 @@
 ---
 title: Johdanto
-translated_from: 2ad10049c9c3d0b5f6fb78356500eaa25670febd
+translated_from: 864a9f606fb309bc3e706c3231d0ec7208b25eed
 ---
 
 # Johdanto
 
-HALMET (Hat Labs Marine Engine & Tank interface) on kehityskortti moottori- ja tankkianturien liittämiseen veneissä ja muissa ajoneuvoissa. Sillä voi lukea digitaalisia ja analogisia antureita sekä liittyä muihin laitteisiin NMEA 2000-, WiFi-, Bluetooth-, I2C-, 1-Wire- tai GPIO-liitäntöjen kautta.
+HALMET (Hat Labs Marine Engine & Tank interface) on kehityskortti moottori- ja tankkianturien liittämiseen veneissä ja muissa ajoneuvoissa. Sillä voi lukea digitaalisia ja analogisia antureita sekä liittyä muihin laitteisiin NMEA 2000 -väylän, WiFin, Bluetoothin, I2C:n, 1-Wiren tai GPIO-liitäntöjen kautta.
 
 <figure markdown="span">
 ![](halmet_v1_top_photo.jpg){ width="60%" }
@@ -14,9 +14,9 @@ HALMET (Hat Labs Marine Engine & Tank interface) on kehityskortti moottori- ja t
 
 ## Tärkeimmät ominaisuudet
 
-- **Neljä digitaalituloa**: HALMETissa on neljä digitaalituloa digitaalisten hälytyssignaalien lukemiseen tai laskureiksi. Tulot kestävät jännitteitä -32 V:n ja +32 V:n välillä. Digitaalituloilla voi havaita sekä signaalitasoja että ajassa muuttuvia signaaleja, kuten moottorin kierroslukua, polttoaineen virtausta tai ketjulaskurin pulsseja.
+- **Neljä digitaalituloa**: HALMETissa on neljä digitaalituloa digitaalisten hälytyssignaalien lukemiseen tai laskureiksi. Tulot kestävät jännitteitä −32 V:n ja +32 V:n välillä. Digitaalituloilla voi havaita sekä signaalitasoja että ajassa muuttuvia signaaleja, kuten moottorin kierroslukua, polttoaineen virtausta tai ketjulaskurin pulsseja.
 
-- **Neljä analogiatuloa**: HALMETissa on neljä analogiatuloa analogisten antureiden lukemiseen. Tulot kestävät jännitteitä -32 V:n ja +32 V:n välillä, ja mittausalue on 0–32 V. Tulot on kytketty 16-bittiseen ADS1115-AD-muuntimeen. Analogiatuloja voi käyttää sekä passiiviseen jännitemittaukseen että aktiiviseen vastusmittaukseen.
+- **Neljä analogiatuloa**: HALMETissa on neljä analogiatuloa analogisten antureiden lukemiseen. Tulot kestävät jännitteitä −32 V:n ja +32 V:n välillä, ja mittausalue on 0–33 V. Tulot on kytketty 16-bittiseen ADS1115-AD-muuntimeen. Analogiatuloja voi käyttää sekä passiiviseen jännitemittaukseen että aktiiviseen vastusmittaukseen.
 
 - **NMEA 2000 -yhteensopiva**: HALMET on täysin yhteensopiva NMEA 2000 -standardin kanssa. Kortin voi liittää NMEA 2000 -verkkoon sisäänrakennetun NMEA 2000 -liitännän kautta.
 

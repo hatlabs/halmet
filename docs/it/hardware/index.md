@@ -1,6 +1,6 @@
 ---
 title: Descrizione dell’hardware
-translated_from: af5172f8fb6598935bf432cd9590095fe4f40312
+translated_from: 96f96c3aff8d2a33ab2f1b59c0dbb8747c8ed3e2
 ---
 
 # Hardware
@@ -52,10 +52,10 @@ Di seguito sono descritti i diversi blocchi funzionali della scheda.
     opzionale da 10 mA per la misura attiva di resistenza. Il generatore di corrente
     costante si abilita tramite i connettori a pettine per jumper CCS.
 
-    In modalità di misura di resistenza, la resistenza massima misurabile è 320 Ω.
+    In modalità di misura di resistenza, la resistenza massima misurabile è 300 Ω.
 
 10. Ingressi digitali. HALMET dispone di quattro ingressi digitali con tensione di
-    ingresso massima di ±30 V. Gli ingressi sono dotati di uno Schmitt trigger per
+    ingresso massima di ±32 V. Gli ingressi sono dotati di uno Schmitt trigger per
     migliorare l’immunità ai disturbi.
 
 

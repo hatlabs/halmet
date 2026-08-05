@@ -1,6 +1,6 @@
 ---
 title: Hardware-Beschreibung
-translated_from: af5172f8fb6598935bf432cd9590095fe4f40312
+translated_from: 96f96c3aff8d2a33ab2f1b59c0dbb8747c8ed3e2
 ---
 
 # Hardware
@@ -52,10 +52,10 @@ Im Folgenden werden die verschiedenen Funktionsblöcke der Platine beschrieben.
     die aktive Widerstandsmessung. Die Konstantstromquelle lässt sich über die
     CCS-Jumper-Stiftleisten aktivieren.
 
-    Im Widerstandsmessbetrieb beträgt der maximal messbare Widerstand 320 Ω.
+    Im Widerstandsmessbetrieb beträgt der maximal messbare Widerstand 300 Ω.
 
 10. Digitaleingänge. HALMET hat vier Digitaleingänge mit einer maximalen
-    Eingangsspannung von ±30 V. Die Eingänge verfügen über einen Schmitt-Trigger,
+    Eingangsspannung von ±32 V. Die Eingänge verfügen über einen Schmitt-Trigger,
     der die Störfestigkeit verbessert.
 
 

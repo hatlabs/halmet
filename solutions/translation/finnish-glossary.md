@@ -384,7 +384,7 @@ this heading are shared with HALPI2 and should not be changed here alone.
 | reset button | reset-painike | The board's own labels `Reset` and `Boot` stay in English |
 | boot button | boot-painike | |
 | bootloader | käynnistyslataaja | |
-| download mode | latauslataustila | ESP32 flashing mode |
+| download mode | lataustila | ESP32 flashing mode |
 | user-programmable LED | käyttäjän ohjattava LED | |
 | open hardware | avoin laitteisto | |
 

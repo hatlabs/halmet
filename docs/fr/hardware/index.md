@@ -1,6 +1,6 @@
 ---
 title: Description du matériel
-translated_from: af5172f8fb6598935bf432cd9590095fe4f40312
+translated_from: 96f96c3aff8d2a33ab2f1b59c0dbb8747c8ed3e2
 ---
 
 # Matériel
@@ -51,10 +51,10 @@ Les différents blocs fonctionnels de la carte sont décrits ci-dessous.
     10 mA pour la mesure active de résistance. La source de courant constant s'active à
     l'aide des connecteurs à cavalier CCS.
 
-    En mode de mesure de résistance, la résistance maximale mesurable est de 320 Ω.
+    En mode de mesure de résistance, la résistance maximale mesurable est de 300 Ω.
 
 10. Entrées numériques. HALMET comporte quatre entrées numériques dont la tension d'entrée
-    maximale est de ±30 V. Les entrées intègrent un Schmitt trigger pour améliorer l'immunité au bruit.
+    maximale est de ±32 V. Les entrées intègrent un Schmitt trigger pour améliorer l'immunité au bruit.
 
 
 ## Isolation galvanique

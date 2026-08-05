@@ -7,7 +7,7 @@ translated_from: 75bcdba18bc044c04ce3e220067bf537e069ec82
 
 ## Kortin kokoaminen
 
-Jotta liittimet voidaan sijoittaa joustavammin pieniin koteloihin, HALMET-kortit toimitetaan ilman 1-Wire- ja GPIO-liittimiä. Jos aiot käyttää kumpaakaan näistä liitännöistä, sinun on juotettava liitin kiinni korttiin.
+Jotta liittimet voidaan sijoittaa joustavammin pieniin koteloihin, HALMET-kortit toimitetaan ilman 1-Wire- ja GPIO-liittimiä. Jos aiot käyttää kumpaakaan näistä liitännöistä, liitin on juotettava kiinni korttiin.
 
 Jos tarvitset ohjeita nastarimojen juottamiseen, katso SH-ESP32:n [kokoamisohjeet](https://docs.hatlabs.fi/sh-esp32/pages/getting-started/#revision-1-boards).
 

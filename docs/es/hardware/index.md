@@ -1,6 +1,6 @@
 ---
 title: Descripción del hardware
-translated_from: af5172f8fb6598935bf432cd9590095fe4f40312
+translated_from: 96f96c3aff8d2a33ab2f1b59c0dbb8747c8ed3e2
 ---
 
 # Hardware
@@ -52,10 +52,10 @@ A continuación se describen los distintos bloques funcionales de la placa.
     constante se activa mediante los conectores de pines para puente CCS.
 
     En el modo de medición de resistencia, la resistencia máxima que se puede
-    medir es de 320 Ω.
+    medir es de 300 Ω.
 
 10. Entradas digitales. HALMET tiene cuatro entradas digitales con una tensión de
-    entrada máxima de ±30 V. Las entradas incorporan un Schmitt trigger para
+    entrada máxima de ±32 V. Las entradas incorporan un Schmitt trigger para
     mejorar la inmunidad al ruido.
 
 

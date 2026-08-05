@@ -1,6 +1,6 @@
 ---
 title: Introduktion
-translated_from: 2ad10049c9c3d0b5f6fb78356500eaa25670febd
+translated_from: 864a9f606fb309bc3e706c3231d0ec7208b25eed
 ---
 
 # Introduktion
@@ -16,7 +16,7 @@ HALMET, Hat Labs Marine Engine & Tank interface, er et udviklingskort til tilslu
 
 - **Fire digitale indgange**: HALMET har fire digitale indgange til aflæsning af digitale alarmsignaler eller til brug som tællere. Indgangene tåler spændinger mellem −32 V og +32 V. De digitale indgange kan bruges både til at registrere signalniveauer og til tidsvarierende signaler som motorens omdrejningstal, brændstofflow eller pulser fra en kædetæller.
 
-- **Fire analoge indgange**: HALMET har fire analoge indgange til aflæsning af analoge sensorer. Indgangene tåler spændinger mellem −32 V og +32 V og har et måleområde fra 0 til 32 V. Indgangene er forbundet til en 16-bits analog-digital-omsætter (ADC) af typen ADS1115. De analoge indgange kan bruges både til passiv spændingsmåling og til aktiv modstandsmåling.
+- **Fire analoge indgange**: HALMET har fire analoge indgange til aflæsning af analoge sensorer. Indgangene tåler spændinger mellem −32 V og +32 V og har et måleområde fra 0 til 33 V. Indgangene er forbundet til en 16-bits analog-digital-omsætter (ADC) af typen ADS1115. De analoge indgange kan bruges både til passiv spændingsmåling og til aktiv modstandsmåling.
 
 - **NMEA 2000-kompatibel**: HALMET er fuldt kompatibel med NMEA 2000-standarden. Kortet kan sluttes til et NMEA 2000-netværk gennem den indbyggede NMEA 2000-grænseflade.
 

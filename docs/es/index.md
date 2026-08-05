@@ -1,6 +1,6 @@
 ---
 title: Introducción
-translated_from: 2ad10049c9c3d0b5f6fb78356500eaa25670febd
+translated_from: 864a9f606fb309bc3e706c3231d0ec7208b25eed
 ---
 
 # Introducción
@@ -16,7 +16,7 @@ HALMET, la interfaz Hat Labs Marine Engine & Tank, es una placa de desarrollo pa
 
 - **Cuatro entradas digitales**: HALMET tiene cuatro entradas digitales para leer señales de alarma digitales o para usarlas como contadores. Las entradas toleran tensiones de entre −32 V y +32 V. Las entradas digitales sirven tanto para detectar niveles de señal como señales variables en el tiempo, como las revoluciones del motor, el caudal de combustible o los impulsos del contador de cadena.
 
-- **Cuatro entradas analógicas**: HALMET tiene cuatro entradas analógicas para leer sensores analógicos. Las entradas toleran tensiones de entre −32 V y +32 V, con un rango de medición de 0 a 32 V. Las entradas están conectadas a un convertidor analógico-digital ADS1115 de 16 bits. Las entradas analógicas se pueden usar tanto para medición pasiva de tensión como para medición activa de resistencia.
+- **Cuatro entradas analógicas**: HALMET tiene cuatro entradas analógicas para leer sensores analógicos. Las entradas toleran tensiones de entre −32 V y +32 V, con un rango de medición de 0 a 33 V. Las entradas están conectadas a un convertidor analógico-digital ADS1115 de 16 bits. Las entradas analógicas se pueden usar tanto para medición pasiva de tensión como para medición activa de resistencia.
 
 - **Compatible con NMEA 2000**: HALMET es totalmente compatible con el estándar NMEA 2000. La placa se puede conectar a una red NMEA 2000 mediante la interfaz NMEA 2000 integrada.
 

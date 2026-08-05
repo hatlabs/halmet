@@ -1,6 +1,6 @@
 ---
 title: Introduction
-translated_from: 2ad10049c9c3d0b5f6fb78356500eaa25670febd
+translated_from: 864a9f606fb309bc3e706c3231d0ec7208b25eed
 ---
 
 # Introduction
@@ -16,7 +16,7 @@ HALMET, la Hat Labs Marine Engine & Tank interface, est une carte de développem
 
 - **Quatre entrées numériques** : HALMET dispose de quatre entrées numériques pour lire des signaux d'alarme numériques ou pour servir de compteurs. Les entrées supportent des tensions comprises entre −32 V et +32 V. Les entrées numériques permettent aussi bien de détecter des niveaux de signal que des signaux variables dans le temps, comme le régime moteur, le débit de carburant ou les impulsions d'un compteur de chaîne.
 
-- **Quatre entrées analogiques** : HALMET dispose de quatre entrées analogiques pour lire des capteurs analogiques. Les entrées supportent des tensions comprises entre −32 V et +32 V, avec une plage de mesure de 0 à 32 V. Elles sont reliées à un convertisseur analogique-numérique ADS1115 de 16 bits. Les entrées analogiques permettent aussi bien la mesure passive de tension que la mesure active de résistance.
+- **Quatre entrées analogiques** : HALMET dispose de quatre entrées analogiques pour lire des capteurs analogiques. Les entrées supportent des tensions comprises entre −32 V et +32 V, avec une plage de mesure de 0 à 33 V. Elles sont reliées à un convertisseur analogique-numérique ADS1115 de 16 bits. Les entrées analogiques permettent aussi bien la mesure passive de tension que la mesure active de résistance.
 
 - **Compatible NMEA 2000** : HALMET est entièrement compatible avec la norme NMEA 2000. La carte peut être raccordée à un réseau NMEA 2000 par l'interface NMEA 2000 intégrée.
 

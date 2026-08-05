@@ -1,6 +1,6 @@
 ---
 title: Maskinvarebeskrivelse
-translated_from: af5172f8fb6598935bf432cd9590095fe4f40312
+translated_from: 96f96c3aff8d2a33ab2f1b59c0dbb8747c8ed3e2
 ---
 
 # Maskinvare
@@ -50,10 +50,10 @@ De ulike funksjonsblokkene på kortet er beskrevet nedenfor.
     De analoge inngangene har en valgfri konstantstrømkilde på 10 mA for aktiv
     motstandsmåling. Konstantstrømkilden kan aktiveres med CCS-jumperpinnene.
 
-    I motstandsmålingsmodus er den største motstanden som kan måles, 320 Ω.
+    I motstandsmålingsmodus er den største motstanden som kan måles, 300 Ω.
 
 10. Digitale innganger. HALMET har fire digitale innganger med en maksimal
-    inngangsspenning på ±30 V. Inngangene har en Schmitt trigger som bedrer
+    inngangsspenning på ±32 V. Inngangene har en Schmitt trigger som bedrer
     støyimmuniteten.
 
 

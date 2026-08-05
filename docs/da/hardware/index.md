@@ -1,6 +1,6 @@
 ---
 title: Hardwarebeskrivelse
-translated_from: af5172f8fb6598935bf432cd9590095fe4f40312
+translated_from: 96f96c3aff8d2a33ab2f1b59c0dbb8747c8ed3e2
 ---
 
 # Hardware
@@ -50,10 +50,10 @@ Kortets forskellige funktionsblokke er beskrevet nedenfor.
     De analoge indgange har en valgfri konstantstrømkilde på 10 mA til aktiv
     modstandsmåling. Konstantstrømkilden kan aktiveres med CCS-jumperstiklisterne.
 
-    I modstandsmåletilstand er den største modstand, der kan måles, 320 ohm.
+    I modstandsmåletilstand er den største modstand, der kan måles, 300 ohm.
 
 10. Digitale indgange. HALMET har fire digitale indgange med en maksimal
-    indgangsspænding på ±30 V. Indgangene har en Schmitt trigger, der forbedrer
+    indgangsspænding på ±32 V. Indgangene har en Schmitt trigger, der forbedrer
     støjimmuniteten.
 
 

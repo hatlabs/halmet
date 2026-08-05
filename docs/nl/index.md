@@ -1,6 +1,6 @@
 ---
 title: Inleiding
-translated_from: 2ad10049c9c3d0b5f6fb78356500eaa25670febd
+translated_from: 864a9f606fb309bc3e706c3231d0ec7208b25eed
 ---
 
 # Inleiding
@@ -16,7 +16,7 @@ HALMET, de Hat Labs Marine Engine & Tank interface, is een ontwikkelbord voor he
 
 - **Vier digitale ingangen**: de HALMET heeft vier digitale ingangen voor het lezen van digitale alarmsignalen of voor gebruik als tellers. De ingangen verdragen spanningen tussen −32 V en +32 V. Met de digitale ingangen kunt u zowel signaalniveaus als in de tijd variërende signalen detecteren, zoals motortoerental, brandstofdebiet of pulsen van een kettingteller.
 
-- **Vier analoge ingangen**: de HALMET heeft vier analoge ingangen voor het uitlezen van analoge sensoren. De ingangen verdragen spanningen tussen −32 V en +32 V, met een meetbereik van 0 tot 32 V. De ingangen zijn aangesloten op een ADS1115-analoog-digitaalomzetter met een 16-bits resolutie. De analoge ingangen zijn geschikt voor zowel passieve spanningsmetingen als actieve weerstandsmetingen.
+- **Vier analoge ingangen**: de HALMET heeft vier analoge ingangen voor het uitlezen van analoge sensoren. De ingangen verdragen spanningen tussen −32 V en +32 V, met een meetbereik van 0 tot 33 V. De ingangen zijn aangesloten op een ADS1115-analoog-digitaalomzetter met een 16-bits resolutie. De analoge ingangen zijn geschikt voor zowel passieve spanningsmetingen als actieve weerstandsmetingen.
 
 - **NMEA 2000-compatibel**: de HALMET is volledig compatibel met de NMEA 2000-standaard. De print kan via de ingebouwde NMEA 2000-interface op een NMEA 2000-netwerk worden aangesloten.
 

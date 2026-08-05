@@ -1,6 +1,6 @@
 ---
 title: Hårdvarubeskrivning
-translated_from: af5172f8fb6598935bf432cd9590095fe4f40312
+translated_from: 96f96c3aff8d2a33ab2f1b59c0dbb8747c8ed3e2
 ---
 
 # Hårdvara
@@ -50,10 +50,10 @@ Kortets olika funktionsblock beskrivs nedan.
     De analoga ingångarna har en valfri konstantströmkälla på 10 mA för aktiv
     resistansmätning. Konstantströmkällan aktiveras med CCS-bygelstiften.
 
-    I resistansmätningsläge är den högsta resistans som kan mätas 320 Ω.
+    I resistansmätningsläge är den högsta resistans som kan mätas 300 Ω.
 
 10. Digitala ingångar. HALMET har fyra digitala ingångar med en maximal
-    inspänning på ±30 V. Ingångarna har en Schmitt trigger som förbättrar
+    inspänning på ±32 V. Ingångarna har en Schmitt trigger som förbättrar
     störningståligheten.
 
 

@@ -1,6 +1,6 @@
 ---
 title: Einführung
-translated_from: 2ad10049c9c3d0b5f6fb78356500eaa25670febd
+translated_from: 864a9f606fb309bc3e706c3231d0ec7208b25eed
 ---
 
 # Einführung
@@ -16,7 +16,7 @@ HALMET, das Hat Labs Marine Engine & Tank interface, ist ein Entwicklungsboard z
 
 - **Vier Digitaleingänge**: HALMET besitzt vier Digitaleingänge zum Lesen digitaler Alarmsignale oder zur Verwendung als Zähler. Die Eingänge vertragen Spannungen zwischen −32 V und +32 V. Mit den Digitaleingängen lassen sich sowohl Signalpegel als auch zeitlich veränderliche Signale wie Motordrehzahl, Kraftstoffdurchfluss oder Impulse eines Kettenzählers erfassen.
 
-- **Vier Analogeingänge**: HALMET besitzt vier Analogeingänge zum Auslesen analoger Sensoren. Die Eingänge vertragen Spannungen zwischen −32 V und +32 V bei einem Messbereich von 0 bis 32 V. Sie sind mit einem ADS1115-Analog-Digital-Wandler mit 16-Bit-Auflösung verbunden. Die Analogeingänge eignen sich sowohl für passive Spannungsmessungen als auch für aktive Widerstandsmessungen.
+- **Vier Analogeingänge**: HALMET besitzt vier Analogeingänge zum Auslesen analoger Sensoren. Die Eingänge vertragen Spannungen zwischen −32 V und +32 V bei einem Messbereich von 0 bis 33 V. Sie sind mit einem ADS1115-Analog-Digital-Wandler mit 16-Bit-Auflösung verbunden. Die Analogeingänge eignen sich sowohl für passive Spannungsmessungen als auch für aktive Widerstandsmessungen.
 
 - **NMEA-2000-kompatibel**: HALMET ist vollständig kompatibel mit dem NMEA-2000-Standard. Über die integrierte NMEA-2000-Schnittstelle lässt sich die Platine an ein NMEA-2000-Netzwerk anschließen.
 

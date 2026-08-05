@@ -51,10 +51,10 @@ Different functional blocks of the board are described below.
     CCS jumper headers.
 
     In resistance measurement mode, the maximum resistance that can be measured
-    is 320 ohms.
+    is 300 ohms.
 
 10. Digital inputs. HALMET has four digital inputs with a maximum input voltage of
-    +/- 30 V. The inputs feature a Schmitt trigger to improve noise immunity.
+    +/- 32 V. The inputs feature a Schmitt trigger to improve noise immunity.
 
 
 ## Galvanic Isolation

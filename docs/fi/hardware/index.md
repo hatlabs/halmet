@@ -1,6 +1,6 @@
 ---
 title: Laitteiston kuvaus
-translated_from: af5172f8fb6598935bf432cd9590095fe4f40312
+translated_from: 96f96c3aff8d2a33ab2f1b59c0dbb8747c8ed3e2
 ---
 
 # Laitteisto
@@ -51,10 +51,10 @@ Kortin eri toiminnalliset lohkot kuvataan alla.
     vastusmittausta varten. Vakiovirtalähteen voi ottaa käyttöön
     CCS-hyppyliittimillä.
 
-    Vastusmittaustilassa suurin mitattava vastus on 320 ohmia.
+    Vastusmittaustilassa suurin mitattava vastus on 300 ohmia.
 
 10. Digitaalitulot. HALMETissa on neljä digitaalituloa, joiden suurin tulojännite
-    on +/- 30 V. Tuloissa on Schmitt-liipaisin parantamassa häiriönsietoa.
+    on ±32 V. Tuloissa on Schmitt trigger parantamassa häiriönsietoa.
 
 
 ## Galvaaninen erotus
@@ -203,9 +203,9 @@ Kortti täyttää NMEA 2000 -standardin vaatimukset niin kauan kuin yhtäkään 
 
 TODO: NMEA 2000:n GPIO-nastajärjestys
 
-## Tilan LEDit
+## Tila-LEDit
 
-HALMET-kortilla on kaksi painiketta ja kaksi LEDiä. Painikkeet on merkitty tunnuksilla Reset ja Boot. Reset-painike käynnistää kortin uudelleen vetämällä ESP32:n Enable-nastan matalaksi. Boot-painike on kytketty GPIO0:aan, ja sillä voi pakottaa moduulin latausmoodiin laitteen käynnistyksen aikana. Muulloin sitä voi käyttää tavallisena painiketulona.
+HALMET-kortilla on kaksi painiketta ja kaksi LEDiä. Painikkeet on merkitty tunnuksilla Reset ja Boot. Reset-painike käynnistää kortin uudelleen vetämällä ESP32:n Enable-nastan matalaksi. Boot-painike on kytketty GPIO0:aan, ja sillä voi pakottaa moduulin lataustilaan laitteen käynnistyksen aikana. Muulloin sitä voi käyttää tavallisena painiketulona.
 
 LEDejä ei ole erikseen merkitty. Punainen LED palaa aina, kun kortilla on 3,3 V:n käyttöjännite. Sininen LED on kytketty GPIO2:een (nasta, jota ESP32-kehityskorteissa yleisesti käytetään LEDille). Käyttäjän ohjelmat voivat ohjata sitä osoittamaan laitteen tilaa.
 
