@@ -20,17 +20,22 @@ from pathlib import Path
 
 # Which mark opens a quotation, and which closes it, per language.
 QUOTES = {
-    "fi": ("”", "”"),  # ”…” — the same character opens and closes
+    "fi": ("”", "”"),  # ”…” — same character both sides
+    "fr": ("«", "»"),  # «…»
+    "de": ("„", "“"),  # „…“
+    "sv": ("”", "”"),  # ”…”
+    "es": ("«", "»"),  # «…»
+    "it": ("“", "”"),  # “…”
+    "nl": ("“", "”"),  # “…”
+    "nb": ("«", "»"),  # «…»
+    "da": ("»", "«"),  # »…« — outward, the opposite of Norwegian
 }
 # French is the one language that *requires* a space before ; : ! ? — and
 # requires it to be unbreakable, so the line never breaks before the mark.
 # Everywhere else any space there is an error, which is why this cannot be one
 # rule for all: applying the French habit elsewhere is a known leak, and
 # applying the majority rule to French would flag every correct sentence.
-# French is the one language that requires a space before ; : ! ? and requires
-# it unbreakable. No language here does, but the exception is kept named so
-# that adding French later is a one-line change rather than a rediscovery.
-SPACE_REQUIRED: set[str] = set()
+SPACE_REQUIRED = {"fr"}
 PLAIN_SPACE_BEFORE_PUNCT = re.compile(r"\u0020[;:!?]")
 # German compounds a multi-word proper name with hyphens throughout —
 # NMEA-2000-Netzwerk, Signal-K-Server — and its glossary calls a missing hyphen
@@ -41,16 +46,12 @@ PLAIN_SPACE_BEFORE_PUNCT = re.compile(r"\u0020[;:!?]")
 # ones. One rule cannot serve all three cases, so each is scoped to where its
 # glossary asks for it.
 HYPHEN_CHAINS = re.compile(r"NMEA-2000|Signal-K|Raspberry-Pi|Compute-Module")
-# German compounds a proper name with hyphens throughout — NMEA-2000-Netzwerk —
-# where every other language treats that chain as an error.
-CHAINS_ALLOWED: set[str] = set()
+CHAINS_ALLOWED = {"de"}
 JUNCTION_HYPHEN = re.compile(
     r"\b(?:HALPI2|HaLOS|NMEA 2000|Signal K|Raspberry Pi|E7T)-"
     r"[a-z\u00e1\u00e9\u00ed\u00f3\u00fa\u00f1\u00e0\u00e8\u00ec\u00f2\u00f9]"
 )
-# Romance languages take no hyphen between a product name and a common noun;
-# Finnish and the other Germanic languages take one at the junction.
-JUNCTION_FORBIDDEN: set[str] = set()
+JUNCTION_FORBIDDEN = {"es", "it"}
 SPACE_BEFORE_PUNCT = re.compile(r"[   ][;:!?]")
 
 

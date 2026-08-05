@@ -81,7 +81,7 @@ HALMET has four analog inputs that can be used for either passive voltage measur
 
 The analog inputs A1-A4 are connected to an ADS1115 analog-to-digital converter. The ADS1115 has a 16-bit resolution and a maximum sampling rate of 860 samples per second. However, HALMET analog inputs incorporate strong low-pass filter with a cutoff frequency of about 160 Hz. This is still more than sufficient for measuring physical sensor outputs such as tank level sensors or engine pressure sensors.
 
-In the figure below, example (a) shows an existing engine panel gauge connected to a resistive sender. Engine panel gauges are often constructed are usually either thermostatic or magnetic. In both cases, the gauge and the sender act as a voltage divider, and the voltage over the sender is proportional to the measured quantity. This voltage can be measured with HALMET's analog inputs without interfering the original gauge operation. Due to the voltage divider, the voltage might not correlate linearly with the measured quantity, but this can be compensated for in software.
+In the figure below, example (a) shows an existing engine panel gauge connected to a resistive sender. Engine panel gauges are usually either thermostatic or magnetic. In both cases, the gauge and the sender act as a voltage divider, and the voltage over the sender is proportional to the measured quantity. This voltage can be measured with HALMET's analog inputs without interfering the original gauge operation. Due to the voltage divider, the voltage might not correlate linearly with the measured quantity, but this can be compensated for in software.
 
 <figure markdown="span">
 ![](analog_input.svg){ width="60%" }

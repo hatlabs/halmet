@@ -58,7 +58,174 @@ plugins:
             Tutorials and Examples: Ohjeet ja esimerkit
             Hardware Revisions: Laitteistoversiot
             Errata: Tunnetut virheet
-
+        - locale: fr
+          name: "Français"
+          build: true
+          site_name: "HALMET : interface moteur et réservoir de Hat Labs"
+          site_description: "Guide d'utilisation de HALMET — carte de mesure des capteurs moteur et réservoir à base d'ESP32, pour bateaux"
+          admonition_translations:
+            note: "Note"
+            warning: "Avertissement"
+            tip: "Astuce"
+            info: "Information"
+            danger: "Danger"
+            example: "Exemple"
+          nav_translations:
+            "Introduction": "Introduction"
+            "Getting Started": "Prise en main"
+            "Usage": "Utilisation"
+            "Hardware": "Matériel"
+            "Software": "Logiciel"
+            "Tutorials and Examples": "Tutoriels et exemples"
+            "Hardware Revisions": "Versions de la carte"
+            "Errata": "Problèmes connus"
+        - locale: de
+          name: "Deutsch"
+          build: true
+          site_name: "HALMET: Hat Labs Schnittstelle für Motor- und Tanksensoren"
+          site_description: "HALMET-Benutzerhandbuch — ESP32-basierte Messplatine für Motor- und Tanksensoren auf Booten"
+          admonition_translations:
+            note: "Hinweis"
+            warning: "Warnung"
+            tip: "Tipp"
+            info: "Info"
+            danger: "Gefahr"
+            example: "Beispiel"
+          nav_translations:
+            "Introduction": "Einführung"
+            "Getting Started": "Erste Schritte"
+            "Usage": "Verwendung"
+            "Hardware": "Hardware"
+            "Software": "Software"
+            "Tutorials and Examples": "Tutorials und Beispiele"
+            "Hardware Revisions": "Hardware-Revisionen"
+            "Errata": "Bekannte Fehler"
+        - locale: sv
+          name: "Svenska"
+          build: true
+          site_name: "HALMET: Hat Labs gränssnitt för motor- och tankgivare"
+          site_description: "Dokumentation för HALMET — ett ESP32-baserat gränssnittskort för motor- och tankgivare i båtar"
+          admonition_translations:
+            note: "Observera"
+            warning: "Varning"
+            tip: "Tips"
+            info: "Information"
+            danger: "Fara"
+            example: "Exempel"
+          nav_translations:
+            "Introduction": "Introduktion"
+            "Getting Started": "Kom igång"
+            "Usage": "Användning"
+            "Hardware": "Hårdvara"
+            "Software": "Programvara"
+            "Tutorials and Examples": "Guider och exempel"
+            "Hardware Revisions": "Hårdvaruversioner"
+            "Errata": "Kända fel"
+        - locale: es
+          name: "Español"
+          build: true
+          site_name: "HALMET: interfaz náutica de motor y tanques de Hat Labs"
+          site_description: "Documentación de HALMET, una placa de interfaz basada en ESP32 para sensores de motor y tanque en embarcaciones"
+          admonition_translations:
+            note: "Nota"
+            warning: "Advertencia"
+            tip: "Consejo"
+            info: "Información"
+            danger: "Peligro"
+            example: "Ejemplo"
+          nav_translations:
+            "Introduction": "Introducción"
+            "Getting Started": "Primeros pasos"
+            "Usage": "Uso"
+            "Hardware": "Hardware"
+            "Software": "Software"
+            "Tutorials and Examples": "Tutoriales y ejemplos"
+            "Hardware Revisions": "Versiones del hardware"
+            "Errata": "Errores conocidos"
+        - locale: it
+          name: "Italiano"
+          build: true
+          site_name: "HALMET: interfaccia nautica Hat Labs per sensori di motore e serbatoio"
+          site_description: "Documentazione di HALMET, scheda di interfaccia basata su ESP32 per il collegamento di sensori di motore e serbatoio a bordo di imbarcazioni e altri veicoli"
+          admonition_translations:
+            note: "Nota"
+            warning: "Avvertenza"
+            tip: "Suggerimento"
+            info: "Informazione"
+            danger: "Pericolo"
+            example: "Esempio"
+          nav_translations:
+            "Introduction": "Introduzione"
+            "Getting Started": "Primi passi"
+            "Usage": "Utilizzo"
+            "Hardware": "Hardware"
+            "Software": "Software"
+            "Tutorials and Examples": "Tutorial ed esempi"
+            "Hardware Revisions": "Revisioni hardware"
+            "Errata": "Problemi noti"
+        - locale: nl
+          name: "Nederlands"
+          build: true
+          site_name: "HALMET: motor- en tankinterface van Hat Labs"
+          site_description: "Documentatie voor HALMET — een ESP32-print voor het uitlezen van motor- en tanksensoren op boten en andere voertuigen"
+          admonition_translations:
+            note: "Opmerking"
+            warning: "Waarschuwing"
+            tip: "Tip"
+            info: "Info"
+            danger: "Gevaar"
+            example: "Voorbeeld"
+          nav_translations:
+            "Introduction": "Inleiding"
+            "Getting Started": "Aan de slag"
+            "Usage": "Gebruik"
+            "Hardware": "Hardware"
+            "Software": "Software"
+            "Tutorials and Examples": "Tutorials en voorbeelden"
+            "Hardware Revisions": "Hardwareversies"
+            "Errata": "Bekende fouten"
+        - locale: nb
+          name: "Norsk bokmål"
+          build: true
+          site_name: "HALMET: Hat Labs' grensesnitt for motor- og tankgivere"
+          site_description: "Brukerveiledning for HALMET — et ESP32-basert grensesnittkort for motor- og tankgivere i båt"
+          admonition_translations:
+            note: "Merk"
+            warning: "Advarsel"
+            tip: "Tips"
+            info: "Informasjon"
+            danger: "Fare"
+            example: "Eksempel"
+          nav_translations:
+            "Introduction": "Innledning"
+            "Getting Started": "Kom i gang"
+            "Usage": "Bruk"
+            "Hardware": "Maskinvare"
+            "Software": "Programvare"
+            "Tutorials and Examples": "Veiledninger og eksempler"
+            "Hardware Revisions": "Maskinvareversjoner"
+            "Errata": "Kjente feil"
+        - locale: da
+          name: "Dansk"
+          build: true
+          site_name: "HALMET: Hat Labs' maritime motor- og tankgrænseflade"
+          site_description: "Dokumentation til HALMET — et ESP32-baseret kort til aflæsning af motor- og tankgivere på både"
+          admonition_translations:
+            note: "Bemærk"
+            warning: "Advarsel"
+            tip: "Tip"
+            info: "Info"
+            danger: "Fare"
+            example: "Eksempel"
+          nav_translations:
+            "Introduction": "Introduktion"
+            "Getting Started": "Kom godt i gang"
+            "Usage": "Brug"
+            "Hardware": "Hardware"
+            "Software": "Software"
+            "Tutorials and Examples": "Vejledninger og eksempler"
+            "Hardware Revisions": "Hardwareversioner"
+            "Errata": "Kendte fejl"
 markdown_extensions:
   - admonition
   - pymdownx.details

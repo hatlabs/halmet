@@ -47,14 +47,14 @@ Different functional blocks of the board are described below.
     measurement noise.
 
     The analog inputs have an optional 10 mA constant-current source for active
-    resistance measurement.The constant-current source can be enabled using the
+    resistance measurement. The constant-current source can be enabled using the
     CCS jumper headers.
 
     In resistance measurement mode, the maximum resistance that can be measured
-    is 320 ohms.
+    is 300 ohms.
 
 10. Digital inputs. HALMET has four digital inputs with a maximum input voltage of
-    +/- 30 V. The inputs feature a Schmitt trigger to improve noise immunity.
+    +/- 32 V. The inputs feature a Schmitt trigger to improve noise immunity.
 
 
 ## Galvanic Isolation
@@ -140,7 +140,7 @@ meaning that they do not share a common ground with the rest of the board.</figc
 
 12.  Low-pass filter solder jumper. The jumper can be shorted to enable a low-pass
      filter on the respective analog input. The filter has a cutoff frequency of
-     2.3 kHz. The filter can be used for example for reducing noise ina tachometer
+     2.3 kHz. The filter can be used for example for reducing noise in a tachometer
      signal.
 
 13.  Pull-down resistor solder jumper. The jumper can be shorted to enable a 100 kohm

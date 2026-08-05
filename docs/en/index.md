@@ -15,7 +15,7 @@ HALMET, the Hat Labs Marine Engine & Tank interface, is a development board for 
 
 - **Four digital inputs**: HALMET has four digital inputs for reading digital alarm signals or as counters. The inputs tolerate voltages between -32 V and +32 V. The digital inputs can be used both for detecting signal levels as well as time-varying signals such as engine RPM, fuel flow or chain counter pulses.
 
-- **Four analog inputs**: HALMET has four analog inputs for reading analog sensors. The inputs tolerate voltages between -32 V and +32 V, with a measurement range of 0 to 32 V. The inputs are connected to a 16-bit ADS1115 analog-to-digital converter. The analog inputs can be used both for passive voltage measurements as well as active resistance measurements.
+- **Four analog inputs**: HALMET has four analog inputs for reading analog sensors. The inputs tolerate voltages between -32 V and +32 V, with a measurement range of 0 to 33 V. The inputs are connected to a 16-bit ADS1115 analog-to-digital converter. The analog inputs can be used both for passive voltage measurements as well as active resistance measurements.
 
 - **NMEA 2000 compatible**: HALMET is fully compatible with the NMEA 2000 standard. The board can be connected to a NMEA 2000 network using the built-in NMEA 2000 interface.
 

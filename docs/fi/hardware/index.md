@@ -1,6 +1,6 @@
 ---
 title: Laitteiston kuvaus
-translated_from: 66f9306e0980490684ef1cb989b75a230f6600df
+translated_from: 96f96c3aff8d2a33ab2f1b59c0dbb8747c8ed3e2
 ---
 
 # Laitteisto
@@ -51,10 +51,10 @@ Kortin eri toiminnalliset lohkot kuvataan alla.
     vastusmittausta varten. Vakiovirtalähteen voi ottaa käyttöön
     CCS-hyppyliittimillä.
 
-    Vastusmittaustilassa suurin mitattava vastus on 320 ohmia.
+    Vastusmittaustilassa suurin mitattava vastus on 300 ohmia.
 
 10. Digitaalitulot. HALMETissa on neljä digitaalituloa, joiden suurin tulojännite
-    on +/- 30 V. Tuloissa on Schmitt-liipaisin parantamassa häiriönsietoa.
+    on ±32 V. Tuloissa on Schmitt trigger parantamassa häiriönsietoa.
 
 
 ## Galvaaninen erotus
@@ -141,12 +141,12 @@ ei ole yhteistä maata kortin muun osan kanssa.</figcaption>
 
 13.  Alasvetovastuksen juotossilta. Sillan sulkeminen ottaa käyttöön 100 kohmin
      alasvetovastuksen kyseisellä digitaalitulolla. Alasvetovastusta voi käyttää
-     avautuvan kytkimen lukemiseen, kun kytkin vetää jännitteen korkeaksi
+     sulkeutuvan kytkimen lukemiseen, kun kytkin vetää jännitteen korkeaksi
      sulkeutuessaan.
 
 14.  Ylösvetovastuksen juotossilta. Sillan sulkeminen ottaa käyttöön 100 kohmin
      ylösvetovastuksen kyseisellä digitaalitulolla. Ylösvetovastusta voi käyttää
-     sulkeutuvan kytkimen lukemiseen, kun kytkin vetää jännitteen matalaksi
+     avautuvan kytkimen lukemiseen, kun kytkin vetää jännitteen matalaksi
      sulkeutuessaan.
 
 15.  ADS1115:n I2C-osoitteen valinnan juotossillat. Silloilla valitaan
@@ -203,9 +203,9 @@ Kortti täyttää NMEA 2000 -standardin vaatimukset niin kauan kuin yhtäkään 
 
 TODO: NMEA 2000:n GPIO-nastajärjestys
 
-## Tilan LEDit
+## Tila-LEDit
 
-HALMET-kortilla on kaksi painiketta ja kaksi LEDiä. Painikkeet on merkitty tunnuksilla Reset ja Boot. Reset-painike käynnistää kortin uudelleen vetämällä ESP32:n Enable-nastan matalaksi. Boot-painike on kytketty GPIO0:aan, ja sillä voi pakottaa moduulin latausmoodiin laitteen käynnistyksen aikana. Muulloin sitä voi käyttää tavallisena painiketulona.
+HALMET-kortilla on kaksi painiketta ja kaksi LEDiä. Painikkeet on merkitty tunnuksilla Reset ja Boot. Reset-painike käynnistää kortin uudelleen vetämällä ESP32:n Enable-nastan matalaksi. Boot-painike on kytketty GPIO0:aan, ja sillä voi pakottaa moduulin lataustilaan laitteen käynnistyksen aikana. Muulloin sitä voi käyttää tavallisena painiketulona.
 
 LEDejä ei ole erikseen merkitty. Punainen LED palaa aina, kun kortilla on 3,3 V:n käyttöjännite. Sininen LED on kytketty GPIO2:een (nasta, jota ESP32-kehityskorteissa yleisesti käytetään LEDille). Käyttäjän ohjelmat voivat ohjata sitä osoittamaan laitteen tilaa.
 

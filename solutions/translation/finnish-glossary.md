@@ -191,7 +191,6 @@ them.
 
 | English | Finnish | Note |
 |:--------|:--------|:-----|
-| power supply | virtalähde | |
 | power source | virransyöttö | |
 | input voltage range | syöttöjännitealue | |
 | polarity | napaisuus | |
@@ -353,11 +352,12 @@ this heading are shared with HALPI2 and should not be changed here alone.
 | threshold voltage | kynnysjännite | |
 | hysteresis | hystereesi | |
 | floating (input) | kelluva | `tulo jää kelluvaksi` |
-| normally open / normally closed | avautuva / sulkeutuva | Standard Finnish switch terms |
+| normally open / normally closed | sulkeutuva / avautuva | SFS/IEC contact terms, and easy to get backwards: a *sulkeutuva* contact is open at rest and **closes** when actuated, which is what *normally open* means. Swedish `slutande`/`brytande` and German `Schließer`/`Öffner` line up the same way. |
 | self-resetting fuse | itsestään palautuva sulake | |
 | reverse polarity protection | napaisuussuojaus | |
 | overvoltage protection | ylijännitesuojaus | |
 | switching power supply | hakkuriteholähde | |
+| power supply | teholähde | **A deliberate divergence from HALPI2, which uses `virtalähde`. Do not harmonise.** On HALMET the two collide: `vakiovirtalähde` is the constant current source, an entirely different component described on the same page, and `virtalähde` is a substring of it — so a reader meets what looks like one component with a modifier. `teholähde` is also the base of `hakkuriteholähde`, which this glossary already prescribes. |
 | current consumption | virrankulutus | |
 | short circuit | oikosulku | |
 | chafing (of a wire) | hankautuminen | |
@@ -384,7 +384,7 @@ this heading are shared with HALPI2 and should not be changed here alone.
 | reset button | reset-painike | The board's own labels `Reset` and `Boot` stay in English |
 | boot button | boot-painike | |
 | bootloader | käynnistyslataaja | |
-| download mode | latauslataustila | ESP32 flashing mode |
+| download mode | lataustila | ESP32 flashing mode |
 | user-programmable LED | käyttäjän ohjattava LED | |
 | open hardware | avoin laitteisto | |
 
