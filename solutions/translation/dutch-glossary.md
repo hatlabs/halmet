@@ -637,7 +637,6 @@ repositories stay comparable.
 | spudger | spudger | No Dutch equivalent in trade usage |
 | guitar pick | plectrum | |
 | to pry / to rock (a connector loose) | wrikken | |
-| Label (table column heading) | Aanduiding | *Label* exists in Dutch but reads as a sticker |
 | socket (hex tool) | dop / dopsleutel | Kept apart from *aansluiting* |
 | surface-mounted component | SMD-component | SMD is the established Dutch trade abbreviation |
 | countersunk screw | verzonken schroef | |

@@ -571,7 +571,6 @@ the HALMET page named.
 | copper pour / copper fill | kobberflade / kobberudfyldning | design-files.md and errata.md; 'kobberflade' for the plural pours in the changelog, 'kobberudfyldning' for the errata heading |
 | power plane | forsyningsplan | errata.md; later mention shortened to '3,3 V-planet' as the glossary does for spændingsskinne |
 | mounting ledge | monteringsafsats | errata.md; the cast ledges inside the enclosure that the board rests on |
-| flash (casting residue) | grat / gratkant | errata.md; the English source quotes "flashes" as leftover casting aluminium — unrelated to 'to flash' firmware, which stays 'flashe' |
 | solder mask | loddemaske | errata.md |
 | inrush current | indkoblingsstrøm | errata.md; distinct from 'overstrøm' in the glossary |
 | thermal throttling | termisk nedregulering | troubleshooting.md, CPU temperature section |
