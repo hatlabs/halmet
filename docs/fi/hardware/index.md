@@ -1,6 +1,6 @@
 ---
 title: Laitteiston kuvaus
-translated_from: 66f9306e0980490684ef1cb989b75a230f6600df
+translated_from: af5172f8fb6598935bf432cd9590095fe4f40312
 ---
 
 # Laitteisto

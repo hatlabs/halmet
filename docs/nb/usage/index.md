@@ -1,6 +1,6 @@
 ---
 title: Bruk
-translated_from: 0d5855d63a22b19308b3b70c9481dfc441864197
+translated_from: 62b94ac6364a19f44074c56bd610d243063e9847
 ---
 
 # Bruk
