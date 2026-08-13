@@ -53,7 +53,7 @@ in the HALPI2 repository. The general approach is the same in all of them.
 
 The locale code is `it`. mkdocs-material ships built-in UI translations for it,
 so nothing in the theme chrome needs a manual string. `it` is already registered
-in `scripts/check_glossary.py` and `scripts/check_typography.py` in this
+in `check-glossary` and `check-typography` in this
 repository, so both checks run without further setup.
 
 Unlike the other files under `solutions/`, this one has no date in its filename
@@ -400,7 +400,7 @@ examples are HALMET's:
 
 `1/2"` and `5/8"` are inch sizes for drill bits and stay as written — the
 double-prime is part of the measurement, not a quotation mark, so rule 2 does not
-touch it and neither does `check_typography.py`, which only counts `“` and `”`.
+touch it and neither does `check-typography`, which only counts `“` and `”`.
 
 ## Links, images, admonitions, navigation
 
@@ -564,13 +564,11 @@ bare pin strip, `morsettiera estraibile` for the pluggable block.
 A translated page is not done until:
 
 1. `uv run mkdocs build --strict` passes.
-2. `uv run python scripts/check_anchors.py site` passes.
-3. `uv run python scripts/translation_status.py` shows the page as current.
-4. `uv run python scripts/check_glossary.py it` passes. `it` is already in the
-   `GLOSSARIES` dict in this repository and maps to `italian-glossary.md`, so
-   this needs no setup — unlike on the HALPI2 branch, where registering it was a
-   prerequisite.
-5. `uv run python scripts/check_typography.py it` passes. It enforces rules 2,
+2. `uv run check-anchors site` passes.
+3. `uv run translation-status` shows the page as current.
+4. `uv run check-glossary it` passes. The checker carries `it` and maps it to
+   `italian-glossary.md`, so this needs no setup.
+5. `uv run check-typography it` passes. It enforces rules 2,
    3 and 4 mechanically: the `“…”` pair, no space before `; : ! ?`, and no
    junction hyphen between a product name and an Italian word (`it` is in
    `JUNCTION_FORBIDDEN`). The remaining rules are counted by hand, below.

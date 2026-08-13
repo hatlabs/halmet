@@ -109,7 +109,7 @@ practice.
 - **Space before the unit**: `12 V`, `250 kbit/s`, `−20 °C`
 - **En dash for ranges**: `3–5 A`
 
-`scripts/check_typography.py fr` enforces the quotation pairing and the
+`check-typography fr` enforces the quotation pairing and the
 no-break space; it is the one check that is different for French than for every
 sibling language, so do not assume a clean run in another language says
 anything about this one.
@@ -393,11 +393,11 @@ pin strip, `connecteur de câble` for the plug.
 A translated page is not done until:
 
 1. `uv run mkdocs build --strict` passes — the same command CI runs.
-2. `uv run python scripts/check_anchors.py site` passes.
-3. `uv run python scripts/translation_status.py` shows the page as current.
-4. `uv run python scripts/check_glossary.py fr` reports every prescribed term in
+2. `uv run check-anchors site` passes.
+3. `uv run translation-status` shows the page as current.
+4. `uv run check-glossary fr` reports every prescribed term in
    use.
-5. `uv run python scripts/check_typography.py fr` passes — the French rules are
+5. `uv run check-typography fr` passes — the French rules are
    the ones no sibling language shares.
 6. Structure matches the source — see `.claude/skills/translate-page/SKILL.md`.
 7. Every term used on the page that appears in this glossary matches it.

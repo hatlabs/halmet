@@ -438,12 +438,12 @@ translate *header connector* as two words.
 A translated page is not done until:
 
 1. `uv run mkdocs build --strict` passes — the same command CI runs.
-2. `uv run python scripts/check_typography.py de` reports no faults — this is
+2. `uv run check-typography de` reports no faults — this is
    what catches a French space before a colon or a `"…"` pair that should be
    `„…“`.
-3. `uv run python scripts/check_glossary.py de` reports no unused prescribed
+3. `uv run check-glossary de` reports no unused prescribed
    term.
-4. `uv run python scripts/translation_status.py` shows the page as current.
+4. `uv run translation-status` shows the page as current.
 5. `uv run mkdocs serve` shows the page rendering correctly in the browser, with
    lists as lists (see
    `../best-practices/markdown-lists-need-blank-line-2026-05-16.md` — the
