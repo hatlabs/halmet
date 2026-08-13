@@ -197,7 +197,7 @@ by the slugifier — `## ¿Qué es HALMET?` does **not** become `#¿que-es-halme
 Do not guess: build the site and read the real ids out of the generated HTML.
 This matters on HALMET's `usage/index.md`, which links to
 `../hardware/index.md#gpio-reference`: that anchor changes as soon as the
-heading is translated, and `check_anchors.py` is what catches it.
+heading is translated, and `check-anchors` is what catches it.
 
 Section and page titles in the navigation are not part of any markdown file —
 they live in `mkdocs.yml` under the i18n plugin's `nav_translations`, which is
@@ -522,10 +522,10 @@ ambiguous, say what the thing is: `regleta de pines` for a bare pin strip,
 A translated page is not done until:
 
 1. `uv run mkdocs build --strict` passes.
-2. `uv run python scripts/check_anchors.py site` passes.
-3. `uv run python scripts/translation_status.py` shows the page as current.
-4. `uv run python scripts/check_glossary.py es` passes.
-5. `uv run python scripts/check_typography.py es` passes — it knows this
+2. `uv run check-anchors site` passes.
+3. `uv run translation-status` shows the page as current.
+4. `uv run check-glossary es` passes.
+5. `uv run check-typography es` passes — it knows this
    language's quotation marks and its space-before-punctuation rule.
 6. Structure matches the source — see `.claude/skills/translate-page/SKILL.md`.
 7. Every term used on the page that appears in this glossary matches it.
@@ -573,7 +573,7 @@ translators and consolidated into one list. They are kept because the Spanish
 decisions in them are binding for HALMET too — `paso`, `serigrafía`, `puente de
 soldadura`, `pasacables`, `normalmente abierto (NA)` and `V CC` are all reused
 above. Rows naming HALPI2-only parts (CM5, HaLOS, the E7T connector) simply
-never come up on a HALMET page; `check_glossary.py` only tests a term whose
+never come up on a HALMET page; `check-glossary` only tests a term whose
 English appears in the source, so they cost nothing.
 
 Extend this list the same way when a HALMET page introduces a term that is not

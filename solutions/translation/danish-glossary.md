@@ -487,10 +487,10 @@ is a `tilslutning`. Do not render *header connector* with two words —
 A translated page is not done until:
 
 1. `uv run mkdocs build --strict` passes.
-2. `uv run python scripts/check_anchors.py site` passes.
-3. `uv run python scripts/translation_status.py` shows the page as current.
-4. `uv run python scripts/check_glossary.py da` passes.
-5. `uv run python scripts/check_typography.py da` passes — it walks the `»…«`
+2. `uv run check-anchors site` passes.
+3. `uv run translation-status` shows the page as current.
+4. `uv run check-glossary da` passes.
+5. `uv run check-typography da` passes — it walks the `»…«`
    marks in order rather than grepping for the pair, so it does not produce the
    false positives the counts below can.
 6. Structure matches the source — see `.claude/skills/translate-page/SKILL.md`.
@@ -547,7 +547,7 @@ A non-zero count is the finding. A rule that was read looks followed.
   `german-glossary.md`, `italian-glossary.md`, `norwegian-glossary.md`,
   `spanish-glossary.md`, `swedish-glossary.md` — siblings
 - `.claude/skills/translate-page/SKILL.md` — the procedure
-- `scripts/check_glossary.py`, `scripts/check_typography.py` — the two checks
+- `check-glossary`, `check-typography` — the two checks
   that measure this file against the pages instead of trusting a reread
 
 ## Terms added during translation

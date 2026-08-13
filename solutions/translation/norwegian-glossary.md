@@ -40,7 +40,7 @@ change to a shared row must be made in both repositories or in neither.
 
 `finnish-glossary.md`, `french-glossary.md`, `german-glossary.md`,
 `swedish-glossary.md`, `spanish-glossary.md` and `italian-glossary.md` are the
-siblings of this file in this repository; `check_glossary.py` also reserves
+siblings of this file in this repository; `check-glossary` also reserves
 `da` and `nl`, so a Danish and a Dutch sibling may appear. The general approach
 is the same in all of them, and Danish is the one to watch — see the next
 section.
@@ -548,20 +548,20 @@ to convert, and rewriting it would trip the numeric-drift check.
 A translated page is not done until:
 
 1. `uv run mkdocs build --strict` passes — the same command CI runs.
-2. `uv run python scripts/check_anchors.py site` passes.
-3. `uv run python scripts/translation_status.py` shows the page as current.
-4. `uv run python scripts/check_glossary.py nb` passes.
-5. `uv run python scripts/check_typography.py nb` passes.
+2. `uv run check-anchors site` passes.
+3. `uv run translation-status` shows the page as current.
+4. `uv run check-glossary nb` passes.
+5. `uv run check-typography nb` passes.
 6. Lists render as lists — see
    `../best-practices/markdown-lists-need-blank-line-2026-05-16.md`. The rule
    applies identically to Norwegian pages.
 7. Every term used on the page that appears in this glossary matches it.
 
-`scripts/check_glossary.py` already carries `"nb": "norwegian-glossary.md"` in
-its `GLOSSARIES` dict, and `check_typography.py` already knows that Norwegian
+`check-glossary` already carries `"nb": "norwegian-glossary.md"` in
+its `GLOSSARIES` dict, and `check-typography` already knows that Norwegian
 quotes are `«…»` and Danish `»…«`, so steps 4 and 5 run as they stand.
 
-One gap to know about: `check_typography.py` measures the junction hyphen only
+One gap to know about: `check-typography` measures the junction hyphen only
 for the names it lists, and `HALMET` is not among them. `HALMET-kabinett` and
 `HALMET-kortet` are therefore not machine-checked — use the grep in the table
 below.

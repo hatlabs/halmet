@@ -528,10 +528,10 @@ bare strip of pins, `kabelconnector` for the plug that goes onto it.
 A translated page is not done until:
 
 1. `uv run mkdocs build --strict` passes — the same command CI runs.
-2. `uv run python scripts/check_anchors.py site` passes.
-3. `uv run python scripts/check_typography.py nl` reports `ok`.
-4. `uv run python scripts/check_glossary.py nl` passes.
-5. `uv run python scripts/translation_status.py` shows the page as current.
+2. `uv run check-anchors site` passes.
+3. `uv run check-typography nl` reports `ok`.
+4. `uv run check-glossary nl` passes.
+5. `uv run translation-status` shows the page as current.
 6. Lists render as lists — see
    `../best-practices/markdown-lists-need-blank-line-2026-05-16.md`.
 7. **The seven rules at the top are counted against the pages, not re-read.**
@@ -541,7 +541,7 @@ followed when you read it, because rereading your own text confirms whatever it
 already says. The French and German branches each shipped one to review for
 exactly that reason.
 
-`check_typography.py` counts rules 2, 4 and 5 for you. The rest are not covered
+`check-typography` counts rules 2, 4 and 5 for you. The rest are not covered
 by any script, so run this:
 
 ```bash
