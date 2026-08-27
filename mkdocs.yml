@@ -226,6 +226,9 @@ plugins:
             "Tutorials and Examples": "Vejledninger og eksempler"
             "Hardware Revisions": "Hardwareversioner"
             "Errata": "Kendte fejl"
+hooks:
+  - hooks/i18n_search.py
+
 markdown_extensions:
   - admonition
   - pymdownx.details
